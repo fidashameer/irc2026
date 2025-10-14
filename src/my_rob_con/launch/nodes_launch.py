@@ -28,8 +28,17 @@ def generate_launch_description():
             parameters=[{'directions': ['north', 'south', 'east', 'west']}]
         )
     ])
- ## rm -rf build install log
- ## colcon build --cmake-clean-cache --packages-select my_rob_con --event-handlers console_direct+
- ##  colcon build --cmake-clean-cache --packages-select my_rob_con
- ##source install/setup.bash
- ## ros2 launch my_rob_con nodes_launch.py
+
+
+##rm -rf build install log
+##colcon build --cmake-clean-cache --packages-select my_rob_con --event-handlers console_direct+
+
+##source install/setup.bash
+##ros2 launch my_rob_con nodes_launch.py
+
+
+
+##mkdir -p install/my_rob_con/lib/my_rob_con
+##ln -s ../../bin/cone_detection install/my_rob_con/lib/my_rob_con/cone_detection
+##ln -s ../../bin/movement_node install/my_rob_con/lib/my_rob_con/movement_node
+##ln -s ../../bin/rotation_node install/my_rob_con/lib/my_rob_con/rotation_node
