@@ -1,0 +1,4 @@
+[console_scripts]
+cone_detection = my_rob_con.rado.cone_detection:main
+movement_node = my_rob_con.rado.movement_node:main
+rotation_node = my_rob_con.rado.rotation_node:main

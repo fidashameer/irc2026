@@ -1,0 +1,12 @@
+source;share/my_rob_con/hook/path.ps1
+source;share/my_rob_con/hook/path.dsv
+source;share/my_rob_con/hook/path.sh
+source;share/my_rob_con/hook/pythonpath.ps1
+source;share/my_rob_con/hook/pythonpath.dsv
+source;share/my_rob_con/hook/pythonpath.sh
+source;share/my_rob_con/hook/pythonscriptspath.ps1
+source;share/my_rob_con/hook/pythonscriptspath.dsv
+source;share/my_rob_con/hook/pythonscriptspath.sh
+source;share/my_rob_con/hook/ament_prefix_path.ps1
+source;share/my_rob_con/hook/ament_prefix_path.dsv
+source;share/my_rob_con/hook/ament_prefix_path.sh

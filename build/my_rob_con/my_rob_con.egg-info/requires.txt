@@ -1,0 +1,5 @@
+setuptools
+rclpy
+opencv-python
+ultralytics
+cv_bridge
